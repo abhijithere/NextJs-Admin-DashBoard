@@ -18,12 +18,12 @@ export default function Header() {
         });
     return (
         <header className={headerStyle}>
-            <div className="h-16 flex items-center justify-between">
+            <div className="h-16 flex items-center justify-between bg-white dark:bg-[hsl(222.2,84%,4.9%)]">
                 <button onClick={sidebarToggle} className="order-2 sm:order-1 shrink-btn float-right bg-sidebar-muted text-sidebar-muted-foreground hover:bg-foreground hover:text-background ml-3 rounded-md w-[30px] h-[30px] flex items-center justify-center shadow-md shadow-black/10  transition duration-300 ease-in-out">
                     <BsList />
                 </button>
 
-                <div className="flex items-center justify-between sm:order-2 order-1">
+                <div className="flex items-center justify-between sm:order-2 order-1 relative z-10">
                     <div className="p-2">
                         <ThemeSwitcher></ThemeSwitcher>
                     </div>

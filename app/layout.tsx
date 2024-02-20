@@ -31,7 +31,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <div className='min-h-screen flex'>
-            <SideBar></SideBar>
+            <SideBar ></SideBar>
             <Header></Header>
             <PageWrapper children={children}></PageWrapper>
           </div>

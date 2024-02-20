@@ -4,7 +4,7 @@ import classNames from 'classnames';
 import React, { useEffect, useState } from 'react'
 import { useSideBarToggle } from '@/hooks/use-sidebar-toggle';
 import SideBarMenuGroup from './sidebar-menu-group';
-import { SideBarLogo } from './sidebar-logo';
+// import { SideBarLogo } from './sidebar-logo';
 
 
 export const SideBar = () => {
@@ -20,14 +20,14 @@ export const SideBar = () => {
     useEffect(() => setMounted(true), []);
 
     return (
-        <aside className={asideStyle}>
-            <div className="sidebar-top relative flex items-center px-3.5 py-5">
-                {mounted && <SideBarLogo />}
+        <aside className={asideStyle} >
+            <div className="sidebar-top relative flex items-center px-3.5 py-5 bg-white dark:bg-[hsl(222.2,84%,4.9%)]">
+                {}
                 <h3 className={classNames("pl-2 font-bold text-2xl min-w-max text-sidebar-foreground",
                     { hidden: toggleCollapse })}>
-                    DZ Dashboard</h3>
+                    Dev Abhi</h3>
             </div>
-            <nav className="flex flex-col gap-2 transition duration-300 ease-in-out">
+            <nav className="flex flex-col gap-2 transition duration-300 ease-in-out bg-white dark:bg-[hsl(222.2,84%,4.9%)]">
                 <div className="flex flex-col gap-2 px-4">
                     {SIDENAV_ITEMS.map((item, idx) => {
                         return <SideBarMenuGroup key={idx} menuGroup={item} />;

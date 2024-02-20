@@ -18,9 +18,9 @@ export function UserNav() {
             <DropdownMenuContent className="w-56 z-[99998]">
                 <DropdownMenuLabel>
                     <div className="flex flex-col space-y-1">
-                        <p className="text-sm font-medium leading-none">Sijin Raj</p>
+                        <p className="text-sm font-medium leading-none">Abhijit Sinha</p>
                         <p className="text-xs leading-none text-muted-foreground">
-                            sijin@outlook.com
+                            sinhaabhijit2002@gmail.com
                         </p>
                     </div>
                 </DropdownMenuLabel>
