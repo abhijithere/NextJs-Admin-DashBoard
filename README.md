@@ -2,7 +2,7 @@ This is a [Next.js] Admin Dashboard.
 
 ## Initialize node modules
 
-![Uploading image.png…]()
+<img align="right" alt="coding" width="400" src="https://amonigel.com/wp-content/uploads/2022/06/thoughtworks-gif_dribbble.gif" >
 
 
 ```bash
