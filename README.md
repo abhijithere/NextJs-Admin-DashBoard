@@ -2,6 +2,9 @@ This is a [Next.js] Admin Dashboard.
 
 ## Initialize node modules
 
+![Uploading image.png…]()
+
+
 ```bash
 npm install
 ```
